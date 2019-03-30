@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+
+  <!-- HOSTED -->
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,600italic,300italic,400italic,300,700italic,800italic,800' rel='stylesheet' type='text/css'>
+  
+
+  <!-- LOCAL -->
+  <link rel="stylesheet" href="style.css">
+  
+
+  <!-- HOSTED -->
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/2.1.11/jquery.mixitup.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
+
+  <!-- LOCAL -->
+ 
+  <script src="pt.min.js"></script>
+  <script src="index.js"></script>
+ 
+ 
+	
+	
+	
+
+
+
+ 
+</head>
+<body>
+
+
+ 
+
+  <div id="container">
+    <div id="pt" class="canvas"></div>
+	<div id="autor">LukaszPasek</div>
+     <div class="text">
+        Projekt <span class="highlight">Twoja Wiedza-Twoja Przyszłość </span>
+   
+      </div>
+	  <section class="sas">
+	     <a href="#test1"><div class="chapter">Kinematyka</div></a>
+		  <a href="#test2"><div class="chapter">Dynamika</div></a>
+		   <a href="#test3"><div class="chapter">Hydrostatyka</div></a>
+	</section>
+	<section class="sas" style="margin-top:150px;">
+		  <a href="#test4"><div class="chapter">Praca Moc i Energia</div></a>
+		  <a href="#test5"><div class="chapter">Własności Materii</div></a>
+		  <a href="#test6"><div class="chapter">Termodynamika</div></a>
+      </section>
+  </div>
+ <div class="modal" id="test1">
+      
+        <header class="logo1">Test 10 pytań Kinematyka</header>
+		
+		
+     <form class="pytanie" name="answer">
+		<div class="trescE">1.Zaznacz  <strong> fałszywe</strong> stwierdzenie:</div><div class="rezultatN"  id="rezultat2">Nie udzielono odpowiedzi! Poprawna odpowiedź to: B</div><div id="odpa2" class="odpowiedzE" onclick="zmien(2,0)"><strong> A. </strong>Względność ruchu polega na tym, że ciało może być zarówno w ruchu, jak i w spoczynku, w zależności od wybranego układu odniesienia.</div><div id="odpb2" class="odpowiedzE" onclick="zmien(2,1)"><strong> B. </strong>Względność ruchu polega na tym, że jego opis nie zależy od wybranego układu odniesienia.</div><div id="odpc2" class="odpowiedzE"onclick="zmien(2,2)"><strong> C. </strong>Względność ruchu wynika z faktu, że nie istnieje ruch absolutny ani absolutny spoczynek</div><div id="odpd2" class="odpowiedzE"onclick="zmien(2,3)"><strong> D. </strong>Ruch polega na zmianie położenia ciała względem wybranego układu odniesienia</div>
+	 </form>
+	 <form class="pytanie" name="pytanie">
+		<div class="trescE">2. Torem ruchu nazywamy:</div><div class="rezultatN"  id="rezultat3">Nie udzielono odpowiedzi! Poprawna odpowiedź to: D</div><div id="odpa3" class="odpowiedzE" onclick="zmien(3,0)"><strong> A. </strong>drogę przebytą przez ciało.</div><div id="odpb3" class="odpowiedzE" onclick="zmien(3,1)"><strong> B. </strong>linię prostą zakreśloną przez poruszające się ciało.</div><div id="odpc3" class="odpowiedzE"onclick="zmien(3,2)"><strong> C. </strong>odległość pomiędzy punktem, z którego ciało rozpoczęło ruch, a punktem, w którym ruch zakończyło.</div><div id="odpd3" class="odpowiedzE"onclick="zmien(3,3)"><strong> D. </strong>linię, którą zakreśla poruszające się ciało.</div>
+	 </form>
+	 <form class="pytanie" name="pytanie">
+		<div class="trescE">3. Wybierz prawidłowe zdanie:</div><div class="rezultatN"  id="rezultat4">Nie udzielono odpowiedzi! Poprawna odpowiedź to: C</div><div id="odpa4" class="odpowiedzE" onclick="zmien(4,0)"><strong> A. </strong>Jeśli ciało znajduje się w spoczynku względem pewnego układu odniesienia, to także musi się znajdować w spoczynku względem innych układów odniesienia.</div><div id="odpb4" class="odpowiedzE" onclick="zmien(4,1)"><strong> B. </strong>To, czy ciało jest w ruchu, czy w spoczynku, nie zależy od wybranego układu odniesienia.</div><div id="odpc4" class="odpowiedzE"onclick="zmien(4,2)"><strong> C. </strong>Ruch to zmiana położenia ciała względem wybranego układu odniesienia.</div><div id="odpd4" class="odpowiedzE"onclick="zmien(4,3)"><strong> D. </strong>Droga i Przemieszczenie w <strong>każdym</strong> rodzaju ruchu są równe </div>
+	 </form>
+	 <form class="pytanie" name="pytanie">
+		<div class="trescE">4. Rekord w pływaniu na 100 m stylem dowolnym w 2009 r. należał do Brazylijczyka Césaro Cielo Filho i wynosił 46,91 s. Oblicz prędkość średnią, jaka pozwoliła mu wówczas na ustanowienie rekordu świata i wskaż prawidłową odpowiedź.</div><div class="rezultatN"  id="rezultat5">Nie udzielono odpowiedzi! Poprawna odpowiedź to: A</div><div id="odpa5" class="odpowiedzE" onclick="zmien(5,0)"><strong> A. </strong>2,13 m/s</div><div id="odpb5" class="odpowiedzE" onclick="zmien(5,1)"><strong> B. </strong>2,17 m/s</div><div id="odpc5" class="odpowiedzE"onclick="zmien(5,2)"><strong> C. </strong>2,20 m/s</div><div id="odpd5" class="odpowiedzE"onclick="zmien(5,3)"><strong> D. </strong>2,15 m/s</div>
+	 </form>
+	 <form class="pytanie" name="pytanie">
+		<div class="trescE">5. Wybierz prawidłowe zakończenie zdania. Człowiek, maszerując, przemieszcza się z prędkością o wartości:</div><div class="rezultatN"  id="rezultat6">Nie udzielono odpowiedzi! Poprawna odpowiedź to: C</div><div id="odpa6" class="odpowiedzE" onclick="zmien(6,0)"><strong> A. </strong>Między 10 a 15 km/h</div><div id="odpb6" class="odpowiedzE" onclick="zmien(6,1)"><strong> B. </strong>Między 10 a 20 kmh</div><div id="odpc6" class="odpowiedzE"onclick="zmien(6,2)"><strong> C. </strong>Między 1 a 10 km/h</div><div id="odpd6" class="odpowiedzE"onclick="zmien(6,3)"><strong> D. </strong>Między 0.1 a 1 km/h</div>
+	 </form>
+	 <form class="pytanie" name="pytanie">
+		<div class="trescE">6. Wybierz prawidłowe zdanie.</div><div class="rezultatN"  id="rezultat7">Nie udzielono odpowiedzi! Poprawna odpowiedź to: B</div><div id="odpa7" class="odpowiedzE" onclick="zmien(7,0)"><strong> A. </strong>Gdy zmienia się wartość wektora prędkości a jego kierunek jest stały, możemy powiedzieć, że ciało porusza się ruchem jednostajnym prostoliniowym.</div><div id="odpb7" class="odpowiedzE" onclick="zmien(7,1)"><strong> B. </strong>Gdy stały jest kierunek wektora prędkości oraz jego wartość, możemy powiedzieć, że ciało porusza się ruchem jednostajnym prostoliniowym.</div><div id="odpc7" class="odpowiedzE"onclick="zmien(7,2)"><strong> C. </strong>Gdy zmienia się kierunek wektora prędkości a jego wartość jest stała, możemy powiedzieć, że ciało porusza się ruchem jednostajnym prostoliniowym.</div><div id="odpd7" class="odpowiedzE"onclick="zmien(7,3)"><strong> D. </strong>Gdy zmienia się kierunek wektora prędkości i jego wartość , możemy powiedzieć, że ciało porusza się ruchem jednostajnym prostoliniowym.</div>
+	 </form>
+	 <form class="pytanie" name="pytanie">
+		<div class="trescE">7. Które zdania jest prawdziwe , zakładając, że rowerzysta poruszał się ruchem jednostajnym prostoliniowym.</div><div class="rezultatN"  id="rezultat8">Nie udzielono odpowiedzi! Poprawna odpowiedź to: B</div><div id="odpa8" class="odpowiedzE" onclick="zmien(8,0)"><strong> A. </strong>Przebyta droga jest odwrotnie proporcjonalna do czasu trwania ruchu</div><div id="odpb8" class="odpowiedzE" onclick="zmien(8,1)"><strong> B. </strong>W każdej sekundzie trwania ruchu rowerzysta przebędzie taką samą drogę.</div><div id="odpc8" class="odpowiedzE"onclick="zmien(8,2)"><strong> C. </strong>W celu obliczenia drogi, jaką przebył rowerzysta, należy podzielić wartość jego prędkości przez czas trwania ruchu.
+</div><div id="odpd8" class="odpowiedzE"onclick="zmien(8,3)"><strong> D. </strong>Przebyta droga jest równa  kwadratowi czasu trwania ruchu.</div>
+	 </form>
+	 <form class="pytanie" name="pytanie">
+		<div class="trescE">8. Przeczytaj poniższe zdania i wybierz prawdziwe.</div><div class="rezultatN" id="rezultat9">Nie udzielono odpowiedzi! Poprawna odpowiedź to: C</div><div id="odpa9" class="odpowiedzE" onclick="zmien(9,0)"><strong> A. </strong>Ruch jednostajnie przyspieszony prostoliniowy to taki ruch, którego torem jest linia prosta, a wartość prędkości jest stała.</div><div id="odpb9" class="odpowiedzE" onclick="zmien(9,1)"><strong> B. </strong>Ruch jednostajnie przyspieszony prostoliniowy to taki ruch, którego torem jest linia krzywa, a droga przebyta przez ciało w równych przedziałach czasu jest taka sama.</div><div id="odpc9" class="odpowiedzE"onclick="zmien(9,2)"><strong> C. </strong>Ruch jednostajnie przyspieszony prostoliniowy to taki ruch, którego torem ruchu jest linia prosta, a stałemu wzrostowi ulega wartość prędkości.</div><div id="odpd9" class="odpowiedzE"onclick="zmien(9,3)"><strong> D. </strong>Ruch jednostajnie przyspieszony prostoliniowy to taki ruch, którego torem jest linia prosta, a droga przebyta przez ciało w równych przedziałach czasu jest taka sama.</div>
+	 </form>
+	 <form class="pytanie" name="pytanie">
+		<div class="trescE">9. Który zestaw zależności opisujących ruch jednostajnie przyspieszony zawiera tylko prawdziwe zależności?</div><div class="rezultatN"  id="rezultat10">Nie udzielono odpowiedzi! Poprawna odpowiedź to: B</div><div id="odpa10" class="odpowiedzE" onclick="zmien(10,0)"><strong> A. </strong>s=v * t; a=v/t;
+</div><div id="odpb10" class="odpowiedzE" onclick="zmien(10,1)"><strong> B. </strong>s=v * t/2; a=v/t;</div><div id="odpc10" class="odpowiedzE"onclick="zmien(10,2)"><strong> C. </strong>s=v * t/2; a=v/t/2;</div><div id="odpd10" class="odpowiedzE"onclick="zmien(10,3)"><strong> D. </strong>s=a * t^2/2; a=v*t;</div>
+	 </form>
+	 <form class="pytanie" name="pytanie">
+		<div class="trescE">10. Dwa samochody jadą obok siebie z jednakowymi prędkościami. 
+Pasażerowie tych samochodów są względem siebie:</div><div class="rezultatN"  id="rezultat11">Nie udzielono odpowiedzi! Poprawna odpowiedź to: A</div><div id="odpa11" class="odpowiedzE" onclick="zmien(11,0)"><strong> A. </strong>w spoczynku, a względem słupków drogowych w ruchu</div><div id="odpb11" class="odpowiedzE" onclick="zmien(11,1)"><strong> B. </strong>w ruchu; są w ruchu również względem słupków drogowych</div><div id="odpc11" class="odpowiedzE"onclick="zmien(11,2)"><strong> C. </strong>w ruchu, a względem słupków drogowych w spoczynku</div><div id="odpd11" class="odpowiedzE"onclick="zmien(11,3)"><strong> D. </strong>w spoczynku; są w spoczynku również względem słupków drogowych</div>
+	 </form>
+	
+	
+			<div style="text-align:center; margin-top:10px;"><span id="sprawdz" class="btn btn-large btn-blue" onclick="sprawdzegzamin(1)">Sprawdź odpowiedzi!</span></div>
+								
+		
+		
+		
+		<a class="cerrar" href="#portfolio" onclick="location.reload()">X</a>
+    </div>
+	
+	
+	 <div class="modal" id="test2">
+      
+        <header class="logo1">Test 10 pytań Dynamika</header>
+		
+		
+     <form class="pytanie" name="answer">
+		<div class="trescE">1. Kropla deszczu opada w dół z prędkością o stałej wartości 5m/s
+. Oznacza to, że</div><div class="rezultatN"  id="rezultat12">Nie udzielono odpowiedzi! Poprawna odpowiedź to: D</div><div id="odpa12" class="odpowiedzE" onclick="zmien(12,0)"><strong> A. </strong>Siły oporu ruchu są większe od siły grawitacji działającej na kroplę.</div><div id="odpb12" class="odpowiedzE" onclick="zmien(12,1)"><strong> B. </strong>Wypadkowa sił działających na kroplę jest stała i zwrócona pionowo w dół.</div><div id="odpc12" class="odpowiedzE"onclick="zmien(12,2)"><strong> C. </strong>Siły oporu ruchu są mniejsze od siły grawitacji działającej na kroplę.</div><div id="odpd12" class="odpowiedzE"onclick="zmien(12,3)"><strong> D. </strong>Siły działające na kroplę równoważą się.</div>
+	 </form>
+	 <form class="pytanie" name="pytanie">
+		<div class="trescE">2. Jeśli naelektryzowana linijka, umieszczona nad kartką papieru ciągnie ją w górę pewną siłą, to kartka ciągnie linijkę siłą</div><div class="rezultatN"  id="rezultat13">Nie udzielono odpowiedzi! Poprawna odpowiedź to: C</div><div id="odpa13" class="odpowiedzE" onclick="zmien(13,0)"><strong> A. </strong>równą zero.</div><div id="odpb13" class="odpowiedzE" onclick="zmien(13,1)"><strong> B. </strong>równą co do wartości i mającą taki sam zwrot.</div><div id="odpc13" class="odpowiedzE"onclick="zmien(13,2)"><strong> C. </strong>o takiej samej wartości i przeciwnym zwrocie.</div><div id="odpd13" class="odpowiedzE"onclick="zmien(13,3)"><strong> D. </strong>równą co do wartości i mającą taki sam zwrot.</div>
+	 </form>
+	 <form class="pytanie" name="pytanie">
+		<div class="trescE">3. Wybierz prawidłowe zdanie:</div><div class="rezultatN"  id="rezultat14">Nie udzielono odpowiedzi! Poprawna odpowiedź to: C</div><div id="odpa14" class="odpowiedzE" onclick="zmien(14,0)"><strong> A. </strong>Gdy stoimy na podłodze, to my naciskamy na podłogę, a podłoga na nas nie.</div><div id="odpb14" class="odpowiedzE" onclick="zmien(14,1)"><strong> B. </strong>Do zatrzymania poruszającego się samochodu nie jest potrzeba żadna siła.</div><div id="odpc14" class="odpowiedzE"onclick="zmien(14,2)"><strong> C. </strong>Tarcie, które trzeba pokonać, aby wprawić ciało w ruch, jest większe niż to, które działa w czasie ruchu.</div><div id="odpd14" class="odpowiedzE"onclick="zmien(14,3)"><strong> D. </strong>Aby rowerzysta poruszał się ze stałą prędkością, wypadkowa sił działających na niego musi być stała i większa od zera. </div>
+	 </form>
+	 <form class="pytanie" name="pytanie">
+		<div class="trescE">4. Balon meteorologiczny wisi nieruchomo na pewnej wysokości nad ziemią. Oznacza to, że</div><div class="rezultatN"  id="rezultat15">Nie udzielono odpowiedzi! Poprawna odpowiedź to: A</div><div id="odpa15" class="odpowiedzE" onclick="zmien(15,0)"><strong> A. </strong>siła wyporu powietrza równoważy ciężar balonu.</div><div id="odpb15" class="odpowiedzE" onclick="zmien(15,1)"><strong> B. </strong>siła wyporu równoważy ciężar balonu i opory ruchu.</div><div id="odpc15" class="odpowiedzE"onclick="zmien(15,2)"><strong> C. </strong>wypadkowa wszystkich sił działających na balon jest stała i różna od zera.</div><div id="odpd15" class="odpowiedzE"onclick="zmien(15,3)"><strong> D. </strong>siła wyporu jest większa od ciężaru balonu.</div>
+	 </form>
+	 <form class="pytanie" name="pytanie">
+		<div class="trescE">5. Siła o wartości 1 N
+ nada przyspieszenie 2 m/s^2
+ ciału o masie</div><div class="rezultatN"  id="rezultat16">Nie udzielono odpowiedzi! Poprawna odpowiedź to: D</div><div id="odpa16" class="odpowiedzE" onclick="zmien(16,0)"><strong> A. </strong>2 kg.</div><div id="odpb16" class="odpowiedzE" onclick="zmien(16,1)"><strong> B. </strong>0,25 kg.</div><div id="odpc16" class="odpowiedzE"onclick="zmien(16,2)"><strong> C. </strong>1 kg.</div><div id="odpd16" class="odpowiedzE"onclick="zmien(16,3)"><strong> D. </strong>0,5 kg.</div>
+	 </form>
+	 <form class="pytanie" name="pytanie">
+		<div class="trescE">6. Ile zasad dynamiki sformułował Izaac Newton?</div><div class="rezultatN"  id="rezultat17">Nie udzielono odpowiedzi! Poprawna odpowiedź to: A</div><div id="odpa17" class="odpowiedzE" onclick="zmien(17,0)"><strong> A. </strong>3</div><div id="odpb17" class="odpowiedzE" onclick="zmien(17,1)"><strong> B. </strong>1</div><div id="odpc17" class="odpowiedzE"onclick="zmien(17,2)"><strong> C. </strong>5</div><div id="odpd17" class="odpowiedzE"onclick="zmien(17,3)"><strong> D. </strong>2</div>
+	 </form>
+	 <form class="pytanie" name="pytanie">
+		<div class="trescE">7. <i style="color:lightgrey">Jeżeli na ciało nie działa żadna siła lub siły działające na ciało równoważą się, to ciało to pozostaje w spoczynku lub porusza się ruchem jednostajnym po linii prostej.</i>Której zasady dynamiki Newtona dotyczy powyższa treść? 
+ </div><div class="rezultatN"  id="rezultat18">Nie udzielono odpowiedzi! Poprawna odpowiedź to: C</div><div id="odpa18" class="odpowiedzE" onclick="zmien(18,0)"><strong> A. </strong>trzeciej</div><div id="odpb18" class="odpowiedzE" onclick="zmien(18,1)"><strong> B. </strong>czwartej</div><div id="odpc18" class="odpowiedzE"onclick="zmien(18,2)"><strong> C. </strong>pierwszej
+</div><div id="odpd18" class="odpowiedzE"onclick="zmien(18,3)"><strong> D. </strong>drugiej</div>
+	 </form>
+	 <form class="pytanie" name="pytanie">
+		<div class="trescE">8. Siła zdefiniowana jest jako iloczyn</div><div class="rezultatN" id="rezultat19">Nie udzielono odpowiedzi! Poprawna odpowiedź to: B</div><div id="odpa19" class="odpowiedzE" onclick="zmien(19,0)"><strong> A. </strong>masy i drogi</div><div id="odpb19" class="odpowiedzE" onclick="zmien(19,1)"><strong> B. </strong>masy i przyspieszenia</div><div id="odpc19" class="odpowiedzE"onclick="zmien(19,2)"><strong> C. </strong>masy i objętości</div><div id="odpd19" class="odpowiedzE"onclick="zmien(19,3)"><strong> D. </strong>masy i prędkości</div>
+	 </form>
+	 <form class="pytanie" name="pytanie">
+		<div class="trescE">9. Aby ciało o masie 10 kg poruszało się z przyspieszeniem 3 m/s2 konieczne jest przyłożenie do tego ciała siły o wartości </div><div class="rezultatN"  id="rezultat20">Nie udzielono odpowiedzi! Poprawna odpowiedź to: B</div><div id="odpa20" class="odpowiedzE" onclick="zmien(20,0)"><strong> A. </strong>10/3 N
+</div><div id="odpb20" class="odpowiedzE" onclick="zmien(20,1)"><strong> B. </strong>30 N</div><div id="odpc20" class="odpowiedzE"onclick="zmien(20,2)"><strong> C. </strong>30 J</div><div id="odpd20" class="odpowiedzE"onclick="zmien(20,3)"><strong> D. </strong>3 N</div>
+	 </form>
+	 <form class="pytanie" name="pytanie">
+		<div class="trescE">10. Jeżeli na pewne ciało o bardzo małej masie działasz siłą o wartości 5 N, to ciało to działa na ciebie siłą o wartości </div><div class="rezultatN"  id="rezultat21">Nie udzielono odpowiedzi! Poprawna odpowiedź to: A</div><div id="odpa21" class="odpowiedzE" onclick="zmien(21,0)"><strong> A. </strong>5 N i przeciwnym zwrocie</div><div id="odpb21" class="odpowiedzE" onclick="zmien(21,1)"><strong> B. </strong>mniejszej niż 5 N, ponieważ masa ciała jest dużo mniejsza od twojej masy</div><div id="odpc21" class="odpowiedzE"onclick="zmien(21,2)"><strong> C. </strong>nie działa żadną siłą</div><div id="odpd21" class="odpowiedzE"onclick="zmien(21,3)"><strong> D. </strong>5 N i jednakowym zwrocie</div>
+	 </form>
+	
+	
+			<div style="text-align:center; margin-top:10px;"><span id="sprawdz" class="btn btn-large btn-blue" onclick="sprawdzegzamin(2)">Sprawdź odpowiedzi!</span></div>
+								
+		
+		
+		
+		<a class="cerrar" href="#portfolio" onclick="location.reload()">X</a>
+    </div>
+	
+	<div class="modal" id="test3">
+      
+        <header class="logo1">Test 10 pytań Hydrostatyka</header>
+		
+		
+     <form class="pytanie" name="answer">
+		<div class="trescE">1. Jednostką ciśnienia w układzie SI jest:</div><div class="rezultatN"  id="rezultat22">Nie udzielono odpowiedzi! Poprawna odpowiedź to: D</div><div id="odpa22" class="odpowiedzE" onclick="zmien(22,0)"><strong> A. </strong>dżul</div><div id="odpb22" class="odpowiedzE" onclick="zmien(22,1)"><strong> B. </strong>niuton</div><div id="odpc22" class="odpowiedzE"onclick="zmien(22,2)"><strong> C. </strong>kilogram</div><div id="odpd22" class="odpowiedzE"onclick="zmien(22,3)"><strong> D. </strong>paskal</div>
+	 </form>
+	 <form class="pytanie" name="pytanie">
+		<div class="trescE">2. Jeżeli gęstość wody przyjmiemy 1000 kg/m3, a lodu 900 kg/m3, to stosunek objętości części góry lodowej znajdującej się nad powierzchnią wody do części góry znajdującej się tuż pod jej powierzchnią wynosi</div><div class="rezultatN"  id="rezultat23">Nie udzielono odpowiedzi! Poprawna odpowiedź to: D</div><div id="odpa23" class="odpowiedzE" onclick="zmien(23,0)"><strong> A. </strong>1/10</div><div id="odpb23" class="odpowiedzE" onclick="zmien(23,1)"><strong> B. </strong>9/10</div><div id="odpc23" class="odpowiedzE"onclick="zmien(23,2)"><strong> C. </strong>1/3</div><div id="odpd23" class="odpowiedzE"onclick="zmien(23,3)"><strong> D. </strong>1/9</div>
+	 </form>
+	 <form class="pytanie" name="pytanie">
+		<div class="trescE">3. Z łódki pływającej po basenie wyrzucono do wody duży kamień, metalowe wiosło, koło ratunkowe oraz beczkę soli. Po wyrzuceniu, którego z wymienionych przedmiotów poziom wody w basenie nie uległ zmianie? </div><div class="rezultatN"  id="rezultat24">Nie udzielono odpowiedzi! Poprawna odpowiedź to: C</div><div id="odpa24" class="odpowiedzE" onclick="zmien(24,0)"><strong> A. </strong>metalowego wiosła</div><div id="odpb24" class="odpowiedzE" onclick="zmien(24,1)"><strong> B. </strong>kamienia</div><div id="odpc24" class="odpowiedzE"onclick="zmien(24,2)"><strong> C. </strong>koła ratunkowego</div><div id="odpd24" class="odpowiedzE"onclick="zmien(24,3)"><strong> D. </strong> beczki soli</div>
+	 </form>
+	 <form class="pytanie" name="pytanie">
+		<div class="trescE">4. Siła wyporu na Księżycu jest</div><div class="rezultatN"  id="rezultat25">Nie udzielono odpowiedzi! Poprawna odpowiedź to: A</div><div id="odpa25" class="odpowiedzE" onclick="zmien(25,0)"><strong> A. </strong>mniejsza niż na Ziemi</div><div id="odpb25" class="odpowiedzE" onclick="zmien(25,1)"><strong> B. </strong>na Księżycu siła wyporu nie występuje</div><div id="odpc25" class="odpowiedzE"onclick="zmien(25,2)"><strong> C. </strong>większa niż na Ziemi</div><div id="odpd25" class="odpowiedzE"onclick="zmien(25,3)"><strong> D. </strong>taka sama jak na Ziemi</div>
+	 </form>
+	 <form class="pytanie" name="pytanie">
+		<div class="trescE">5. Przyrządem służącym do pomiaru ciśnienia atmosferycznego jest:</div><div class="rezultatN"  id="rezultat26">Nie udzielono odpowiedzi! Poprawna odpowiedź to: D</div><div id="odpa26" class="odpowiedzE" onclick="zmien(26,0)"><strong> A. </strong>siłomierz</div><div id="odpb26" class="odpowiedzE" onclick="zmien(26,1)"><strong> B. </strong>higromierz</div><div id="odpc26" class="odpowiedzE"onclick="zmien(26,2)"><strong> C. </strong>termometr</div><div id="odpd26" class="odpowiedzE"onclick="zmien(26,3)"><strong> D. </strong>barometr</div>
+	 </form>
+	 <form class="pytanie" name="pytanie">
+		<div class="trescE">6. Wraz ze wzrostem wysokości nad poziomem morza ciśnienie atmosferyczne:</div><div class="rezultatN"  id="rezultat27">Nie udzielono odpowiedzi! Poprawna odpowiedź to: A</div><div id="odpa27" class="odpowiedzE" onclick="zmien(27,0)"><strong> A. </strong>maleje</div><div id="odpb27" class="odpowiedzE" onclick="zmien(27,1)"><strong> B. </strong>może wzrastać lub maleć</div><div id="odpc27" class="odpowiedzE"onclick="zmien(27,2)"><strong> C. </strong>wzrasta</div><div id="odpd27" class="odpowiedzE"onclick="zmien(27,3)"><strong> D. </strong>pozostaje stałe</div>
+	 </form>
+	 <form class="pytanie" name="pytanie">
+		<div class="trescE">7. Aby umyć zęby musisz wycisnąć pewną ilość pasty do zębów z tubki. Z jakiego prawa fizyki wówczas korzystasz? </div><div class="rezultatN"  id="rezultat28">Nie udzielono odpowiedzi! Poprawna odpowiedź to: B</div><div id="odpa28" class="odpowiedzE" onclick="zmien(28,0)"><strong> A. </strong>z prawa Archimedesa</div><div id="odpb28" class="odpowiedzE" onclick="zmien(28,1)"><strong> B. </strong>z prawa Pascala</div><div id="odpc28" class="odpowiedzE"onclick="zmien(28,2)"><strong> C. </strong>z prawa Coulomba
+</div><div id="odpd28" class="odpowiedzE"onclick="zmien(28,3)"><strong> D. </strong>z prawa Ohma</div>
+	 </form>
+	 <form class="pytanie" name="pytanie">
+		<div class="trescE">8. Prasa hydrauliczna to urządzenie pozwalające podnosić ciężkie przedmioty przy użyciu niewielkiej siły. Cechą charakterystyczną prasy hydraulicznej jest to, że praca wykonana nad mniejszym tłokiem przez siłę wejściową (czyli siłę, z jaką działamy na mniejszy tłok tego urządzenia) jest: </div><div class="rezultatN" id="rezultat29">Nie udzielono odpowiedzi! Poprawna odpowiedź to: C</div><div id="odpa29" class="odpowiedzE" onclick="zmien(29,0)"><strong> A. </strong>w zależności od ciężaru podnoszonego przedmiotu większa lub mniejsza od pracy wykonanej przez większy tłok</div><div id="odpb29" class="odpowiedzE" onclick="zmien(29,1)"><strong> B. </strong>mniejsza od pracy wykonanej przez większy tłok</div><div id="odpc29" class="odpowiedzE"onclick="zmien(29,2)"><strong> C. </strong>równa pracy wykonanej przez większy tłok</div><div id="odpd29" class="odpowiedzE"onclick="zmien(29,3)"><strong> D. </strong>większa od pracy wykonanej przez większy tłok</div>
+	 </form>
+	 <form class="pytanie" name="pytanie">
+		<div class="trescE">9. Zgodnie z prawem Archimedesa na ciało zanurzone w płynie działa siła wyporu</div><div class="rezultatN"  id="rezultat30">Nie udzielono odpowiedzi! Poprawna odpowiedź to: C</div><div id="odpa30" class="odpowiedzE" onclick="zmien(30,0)"><strong> A. </strong>skierowana do dołu i równa masie płynu wypartego przez ciało
+</div><div id="odpb30" class="odpowiedzE" onclick="zmien(30,1)"><strong> B. </strong>skierowana do dołu i równa masie ciała</div><div id="odpc30" class="odpowiedzE"onclick="zmien(30,2)"><strong> C. </strong>skierowana ku górze i równa masie ciała</div><div id="odpd30" class="odpowiedzE"onclick="zmien(30,3)"><strong> D. </strong>skierowana ku górze i równa masie płynu wypartego przez ciało</div>
+	 </form>
+	 <form class="pytanie" name="pytanie">
+		<div class="trescE">10. Wodę ze szklanki w kształcie walca przelano w całości do drugiej szklanki (również w kształcie walca) o trzykrotnie mniejszym promieniu podstawy. Ciśnienie wody na dno w drugiej szklance, w porównaniu z ciśnieniem wywieranym przez wodę na dno w szklance pierwszej </div><div class="rezultatN"  id="rezultat31">Nie udzielono odpowiedzi! Poprawna odpowiedź to: A</div><div id="odpa31" class="odpowiedzE" onclick="zmien(31,0)"><strong> A. </strong>wzrosło trzykrotnie</div><div id="odpb31" class="odpowiedzE" onclick="zmien(31,1)"><strong> B. </strong>wzrosło dziewięciokrotnie</div><div id="odpc31" class="odpowiedzE"onclick="zmien(31,2)"><strong> C. </strong>zmalało dziewięciokrotnie</div><div id="odpd31" class="odpowiedzE"onclick="zmien(31,3)"><strong> D. </strong>nie uległo zmianie</div>
+	 </form>
+	
+	
+			<div style="text-align:center; margin-top:10px;"><span id="sprawdz" class="btn btn-large btn-blue" onclick="sprawdzegzamin(3)">Sprawdź odpowiedzi!</span></div>
+								
+		
+		
+		
+		<a class="cerrar" href="#portfolio" onclick="location.reload()">X</a>
+    </div>
+ 
+ 	<div class="modal" id="test4">
+      
+        <header class="logo1">Praca Moc Energia</header>
+		
+		
+     <form class="pytanie" name="answer">
+		<div class="trescE">1. Energia potencjalna grawitacji to energia związana z
+</div><div class="rezultatN"  id="rezultat32">Nie udzielono odpowiedzi! Poprawna odpowiedź to: A</div><div id="odpa32" class="odpowiedzE" onclick="zmien(32,0)"><strong> A. </strong>położeniem ciała znajdującym się w polu sił grawitacyjnych</div><div id="odpb32" class="odpowiedzE" onclick="zmien(32,1)"><strong> B. </strong>ciałem odkształcającym się sprężyście</div><div id="odpc32" class="odpowiedzE"onclick="zmien(32,2)"><strong> C. </strong>przemianami energetycznymi zachodzącymi wewnątrz ciała</div><div id="odpd32" class="odpowiedzE"onclick="zmien(32,3)"><strong> D. </strong>ruchem ciała</div>
+	 </form>
+	 <form class="pytanie" name="pytanie">
+		<div class="trescE">2. Energia kinetyczna Ek dowolnego ciała wyrażona jest poprzez iloczyn jego</div><div class="rezultatN"  id="rezultat33">Nie udzielono odpowiedzi! Poprawna odpowiedź to: D</div><div id="odpa33" class="odpowiedzE" onclick="zmien(33,0)"><strong> A. </strong>masy i kwadratu przyspieszenia</div><div id="odpb33" class="odpowiedzE" onclick="zmien(33,1)"><strong> B. </strong>masy i prędkości</div><div id="odpc33" class="odpowiedzE"onclick="zmien(33,2)"><strong> C. </strong>masy i przyspieszenia</div><div id="odpd33" class="odpowiedzE"onclick="zmien(33,3)"><strong> D. </strong>masy i kwadratu prędkości</div>
+	 </form>
+	 <form class="pytanie" name="pytanie">
+		<div class="trescE">3. Jak zmieni się energia kinetyczna pewnego ciała jeżeli jego masę zmniejszymy czterokrotnie, a prędkość zwiększymy dwukrotnie? </div><div class="rezultatN"  id="rezultat34">Nie udzielono odpowiedzi! Poprawna odpowiedź to: C</div><div id="odpa34" class="odpowiedzE" onclick="zmien(34,0)"><strong> A. </strong>zmaleje dwukrotnie</div><div id="odpb34" class="odpowiedzE" onclick="zmien(34,1)"><strong> B. </strong>wzrośnie czterokrotnie</div><div id="odpc34" class="odpowiedzE"onclick="zmien(34,2)"><strong> C. </strong>pozostanie bez zmian</div><div id="odpd34" class="odpowiedzE"onclick="zmien(34,3)"><strong> D. </strong>wzrośnie dwukrotnie</div>
+	 </form>
+	 <form class="pytanie" name="pytanie">
+		<div class="trescE">4. Jak zmienia się energia potencjalna i kinetyczna ciała podczas swobodnego spadku z pewnej wysokości w kierunku Ziemi? </div><div class="rezultatN"  id="rezultat35">Nie udzielono odpowiedzi! Poprawna odpowiedź to: D</div><div id="odpa35" class="odpowiedzE" onclick="zmien(35,0)"><strong> A. </strong>energia kinetyczna i energia potencjalna pozostają bez zmian</div><div id="odpb35" class="odpowiedzE" onclick="zmien(35,1)"><strong> B. </strong>energia kinetyczna maleje, a energia potencjalna wzrasta</div><div id="odpc35" class="odpowiedzE"onclick="zmien(35,2)"><strong> C. </strong>energia kinetyczna i energia potencjalna wzrastają</div><div id="odpd35" class="odpowiedzE"onclick="zmien(35,3)"><strong> D. </strong>energia kinetyczna wzrasta, a energia potencjalna maleje</div>
+	 </form>
+	 <form class="pytanie" name="pytanie">
+		<div class="trescE">5. Praca wykonana przy przemieszczeniu ciała po poziomej powierzchni na drodze 20 m wyniosła 160 J. Oznacza to, że siła działająca na to ciało była równa </div><div class="rezultatN"  id="rezultat36">Nie udzielono odpowiedzi! Poprawna odpowiedź to: C</div><div id="odpa36" class="odpowiedzE" onclick="zmien(36,0)"><strong> A. </strong>3200 N</div><div id="odpb36" class="odpowiedzE" onclick="zmien(36,1)"><strong> B. </strong>1/8 N</div><div id="odpc36" class="odpowiedzE"onclick="zmien(36,2)"><strong> C. </strong>8 N</div><div id="odpd36" class="odpowiedzE"onclick="zmien(36,3)"><strong> D. </strong>320 N</div>
+	 </form>
+	 <form class="pytanie" name="pytanie">
+		<div class="trescE">6. Wat, czyli jednostka mocy w układzie SI, jest równy</div><div class="rezultatN"  id="rezultat37">Nie udzielono odpowiedzi! Poprawna odpowiedź to: A</div><div id="odpa37" class="odpowiedzE" onclick="zmien(37,0)"><strong> A. </strong>J/s</div><div id="odpb37" class="odpowiedzE" onclick="zmien(37,1)"><strong> B. </strong>J ∙ s</div><div id="odpc37" class="odpowiedzE"onclick="zmien(37,2)"><strong> C. </strong>J/m</div><div id="odpd37" class="odpowiedzE"onclick="zmien(37,3)"><strong> D. </strong>N/m</div>
+	 </form>
+	 <form class="pytanie" name="pytanie">
+		<div class="trescE">7. Moc pewnego urządzenia wynosi 2 kW. Oznacza to, że w ciągu 5 minut urządzenie to wykona pracę równą</div><div class="rezultatN"  id="rezultat38">Nie udzielono odpowiedzi! Poprawna odpowiedź to: B</div><div id="odpa38" class="odpowiedzE" onclick="zmien(38,0)"><strong> A. </strong>10000 J</div><div id="odpb38" class="odpowiedzE" onclick="zmien(38,1)"><strong> B. </strong>60000 J</div><div id="odpc38" class="odpowiedzE"onclick="zmien(38,2)"><strong> C. </strong>100000 J
+</div><div id="odpd38" class="odpowiedzE"onclick="zmien(38,3)"><strong> D. </strong>600000 J</div>
+	 </form>
+	 <form class="pytanie" name="pytanie">
+		<div class="trescE">8. Podczas przesuwania ciężkiego przedmiotu przyłożono do niego dodatkową siłę o wartości 10 N skierowaną prostopadle do powierzchni przedmiotu. Siła ta oddziaływała na ciało na ostatnich 10 metrach jego ruchu. Praca wykonana przez tą siłę była równa: </div><div class="rezultatN" id="rezultat39">Nie udzielono odpowiedzi! Poprawna odpowiedź to: C</div><div id="odpa39" class="odpowiedzE" onclick="zmien(39,0)"><strong> A. </strong>100 J</div><div id="odpb39" class="odpowiedzE" onclick="zmien(39,1)"><strong> B. </strong>10 J</div><div id="odpc39" class="odpowiedzE"onclick="zmien(39,2)"><strong> C. </strong>0 J</div><div id="odpd39" class="odpowiedzE"onclick="zmien(39,3)"><strong> D. </strong>1 J</div>
+	 </form>
+	 <form class="pytanie" name="pytanie">
+		<div class="trescE">9. Konsekwencją rozciągnięcia sprężyny jest zmiana jej</div><div class="rezultatN"  id="rezultat40">Nie udzielono odpowiedzi! Poprawna odpowiedź to: B</div><div id="odpa40" class="odpowiedzE" onclick="zmien(40,0)"><strong> A. </strong>energii kinetycznej
+</div><div id="odpb40" class="odpowiedzE" onclick="zmien(40,1)"><strong> B. </strong>energii potencjalnej grawitacji</div><div id="odpc40" class="odpowiedzE"onclick="zmien(40,2)"><strong> C. </strong>energii kinetycznej i potencjalnej</div><div id="odpd40" class="odpowiedzE"onclick="zmien(40,3)"><strong> D. </strong>energii potencjalnej sprężystości</div>
+	 </form>
+	 <form class="pytanie" name="pytanie">
+		<div class="trescE">10. Jak zmieni się energia potencjalna ciała jeżeli przeniesiemy je z wysokości h na wysokość 2 h?</div><div class="rezultatN"  id="rezultat41">Nie udzielono odpowiedzi! Poprawna odpowiedź to: A</div><div id="odpa41" class="odpowiedzE" onclick="zmien(41,0)"><strong> A. </strong>wzrośnie czterokrotnie</div><div id="odpb41" class="odpowiedzE" onclick="zmien(41,1)"><strong> B. </strong>zmaleje dwukrotnie</div><div id="odpc41" class="odpowiedzE"onclick="zmien(41,2)"><strong> C. </strong>zmaleje czterokrotnie</div><div id="odpd41" class="odpowiedzE"onclick="zmien(41,3)"><strong> D. </strong>wzrośnie dwukrotnie
+</div>
+	 </form>
+	
+	
+			<div style="text-align:center; margin-top:10px;"><span id="sprawdz" class="btn btn-large btn-blue" onclick="sprawdzegzamin(4)">Sprawdź odpowiedzi!</span></div>
+								
+		
+		
+		
+		<a class="cerrar" href="#portfolio" onclick="location.reload()">X</a>
+    </div>
+ 
+ 	<div class="modal" id="test5">
+      
+        <header class="logo1">Własności Materii</header>
+		
+		
+     <form class="pytanie" name="answer">
+		<div class="trescE">1.Taki sam stan skupienia mają:</div><div class="rezultatN"  id="rezultat42">Nie udzielono odpowiedzi! Poprawna odpowiedź to: D</div><div id="odpa42" class="odpowiedzE" onclick="zmien(42,0)"><strong> A. </strong>woda, rosa i lód</div><div id="odpb42" class="odpowiedzE" onclick="zmien(42,1)"><strong> B. </strong>śnieg, rosa i mgła</div><div id="odpc42" class="odpowiedzE"onclick="zmien(42,2)"><strong> C. </strong>woda, para wodna i śnieg</div><div id="odpd42" class="odpowiedzE"onclick="zmien(42,3)"><strong> D. </strong>śnieg, lód i szron</div>
+	 </form>
+	 <form class="pytanie" name="pytanie">
+		<div class="trescE">2. Całą dostępną przestrzeń w naczyniu wypełniają:</div><div class="rezultatN"  id="rezultat43">Nie udzielono odpowiedzi! Poprawna odpowiedź to: A</div><div id="odpa43" class="odpowiedzE" onclick="zmien(43,0)"><strong> A. </strong>gazy</div><div id="odpb43" class="odpowiedzE" onclick="zmien(43,1)"><strong> B. </strong>ciecze</div><div id="odpc43" class="odpowiedzE"onclick="zmien(43,2)"><strong> C. </strong>ciała stałe</div><div id="odpd43" class="odpowiedzE"onclick="zmien(43,3)"><strong> D. </strong>ciecze i gazy</div>
+	 </form>
+	 <form class="pytanie" name="pytanie">
+		<div class="trescE">3. Cząsteczki:</div><div class="rezultatN"  id="rezultat44">Nie udzielono odpowiedzi! Poprawna odpowiedź to: C</div><div id="odpa44" class="odpowiedzE" onclick="zmien(44,0)"><strong> A. </strong>składają się zawsze tylko z atomów jednego pierwiastka</div><div id="odpb44" class="odpowiedzE" onclick="zmien(44,1)"><strong> B. </strong>składają się zawsze tylko z atomów różnych pierwiastków</div><div id="odpc44" class="odpowiedzE"onclick="zmien(44,2)"><strong> C. </strong>mogą składać się zarówno z atomów jednego jak i różnych pierwiastków</div><div id="odpd44" class="odpowiedzE"onclick="zmien(44,3)"><strong> D.</strong> są najmniejszymi, niepodzielnymi składnikami materii</div>
+	 </form>
+	 <form class="pytanie" name="pytanie">
+		<div class="trescE">4. Po zmieszaniu ze sobą dwóch różnych cieczy, zmniejszyła się ich całkowita objętość. Zjawisko takie jest spowodowane tym, że:</div><div class="rezultatN"  id="rezultat45">Nie udzielono odpowiedzi! Poprawna odpowiedź to: A</div><div id="odpa45" class="odpowiedzE" onclick="zmien(45,0)"><strong> A. </strong>cząsteczki jednej cieczy wchodzą w luki pomiędzy cząsteczkami drugiej cieczy</div><div id="odpb45" class="odpowiedzE" onclick="zmien(45,1)"><strong> B. </strong>cząsteczki cieczy po zmieszaniu zmniejszają swoje rozmiary </div><div id="odpc45" class="odpowiedzE"onclick="zmien(45,2)"><strong> C. </strong>pewna część cząsteczek cieczy znika po ich zmieszaniu </div><div id="odpd45" class="odpowiedzE"onclick="zmien(45,3)"><strong> D. </strong>cząsteczki cieczy po ich zmieszaniu rozpadają się na mniejsze atomy</div>
+	 </form>
+	 <form class="pytanie" name="pytanie">
+		<div class="trescE">5. Menisk wypukły powstaje, gdy:</div><div class="rezultatN"  id="rezultat46">Nie udzielono odpowiedzi! Poprawna odpowiedź to:A </div><div id="odpa46" class="odpowiedzE" onclick="zmien(46,0)"><strong> A. </strong>siły spójności są większe od sił przylegania</div><div id="odpb46" class="odpowiedzE" onclick="zmien(46,1)"><strong> B. </strong>siły spójności są mniejsze od sił przylegania</div><div id="odpc46" class="odpowiedzE"onclick="zmien(46,2)"><strong> C. </strong>siły spójności są równe siłom przylegania</div><div id="odpd46" class="odpowiedzE"onclick="zmien(46,3)"><strong> D. </strong>między cząsteczkami cieczy i naczynia nie działają żadne siły</div>
+	 </form>
+	 <form class="pytanie" name="pytanie">
+		<div class="trescE">6. Nartnik – owad mogący chodzić po powierzchni wody – wykorzystuje istnienie:
+</div><div class="rezultatN"  id="rezultat47">Nie udzielono odpowiedzi! Poprawna odpowiedź to: C</div><div id="odpa47" class="odpowiedzE" onclick="zmien(47,0)"><strong> A. </strong>menisku wklęsłego</div><div id="odpb47" class="odpowiedzE" onclick="zmien(47,1)"><strong> B. </strong>menisku wypukłego</div><div id="odpc47" class="odpowiedzE"onclick="zmien(47,2)"><strong> C. </strong>błony powierzchniowej</div><div id="odpd47" class="odpowiedzE"onclick="zmien(47,3)"><strong> D. </strong>sił przylegania jego nóg do cząsteczek wody</div>
+	 </form>
+	 <form class="pytanie" name="pytanie">
+		<div class="trescE">7. Ciałem sprężystym jest:</div><div class="rezultatN"  id="rezultat48">Nie udzielono odpowiedzi! Poprawna odpowiedź to: B</div><div id="odpa48" class="odpowiedzE" onclick="zmien(48,0)"><strong> A. </strong>kreda</div><div id="odpb48" class="odpowiedzE" onclick="zmien(48,1)"><strong> B. </strong>gąbka</div><div id="odpc48" class="odpowiedzE"onclick="zmien(48,2)"><strong> C. </strong>cegła
+</div><div id="odpd48" class="odpowiedzE"onclick="zmien(48,3)"><strong> D. </strong>gliniany wazon</div>
+	 </form>
+	 <form class="pytanie" name="pytanie">
+		<div class="trescE">8. W celu ocieplenia domów mieszkalnych, ściany budynku należy obłożyć:</div><div class="rezultatN" id="rezultat49">Nie udzielono odpowiedzi! Poprawna odpowiedź to: D</div><div id="odpa49" class="odpowiedzE" onclick="zmien(49,0)"><strong> A. </strong>żelaznymi płytami</div><div id="odpb49" class="odpowiedzE" onclick="zmien(49,1)"><strong> B. </strong>miedzianymi prętami</div><div id="odpc49" class="odpowiedzE"onclick="zmien(49,2)"><strong> C. </strong>grubą warstwą farby</div><div id="odpd49" class="odpowiedzE"onclick="zmien(49,3)"><strong> D. </strong>styropianem</div>
+	 </form>
+	 <form class="pytanie" name="pytanie">
+		<div class="trescE">9. Ciało stałe, w którym atomy lub cząsteczki tworzą regularne struktury przestrzenne nazywamy:</div><div class="rezultatN"  id="rezultat50">Nie udzielono odpowiedzi! Poprawna odpowiedź to: B</div><div id="odpa50" class="odpowiedzE" onclick="zmien(50,0)"><strong> A. </strong>ciałem regularnym
+</div><div id="odpb50" class="odpowiedzE" onclick="zmien(50,1)"><strong> B. </strong>ciałem krystalicznym</div><div id="odpc50" class="odpowiedzE"onclick="zmien(50,2)"><strong> C. </strong>ciałem twardym</div><div id="odpd50" class="odpowiedzE"onclick="zmien(50,3)"><strong> D. </strong>ciałem bezpostaciowym</div>
+	 </form>
+	 <form class="pytanie" name="pytanie">
+		<div class="trescE">10. Do ciał bezpostaciowych zaliczamy:</div><div class="rezultatN"  id="rezultat51">Nie udzielono odpowiedzi! Poprawna odpowiedź to: C</div><div id="odpa51" class="odpowiedzE" onclick="zmien(51,0)"><strong> A. </strong>lód i śnieg</div><div id="odpb51" class="odpowiedzE" onclick="zmien(51,1)"><strong> B. </strong>sól kuchenną i cukier</div><div id="odpc51" class="odpowiedzE"onclick="zmien(51,2)"><strong> C. </strong>szkło, gumę i bursztyn</div><div id="odpd51" class="odpowiedzE"onclick="zmien(51,3)"><strong> D. </strong>żelazo, miedź i złoto</div>
+	 </form>
+	
+	
+			<div style="text-align:center; margin-top:10px;"><span id="sprawdz" class="btn btn-large btn-blue" onclick="sprawdzegzamin(5)">Sprawdź odpowiedzi!</span></div>
+								
+		
+		
+		
+		<a class="cerrar" href="#portfolio" onclick="location.reload()">X</a>
+    </div>
+ 
+	<div class="modal" id="test6">
+      
+        <header class="logo1"> Termodynamika</header>
+		
+		
+     <form class="pytanie" name="answer">
+		<div class="trescE">1. Temperatura wody znajdującej się w naczyniu zależy od
+</div><div class="rezultatN"  id="rezultat52">Nie udzielono odpowiedzi! Poprawna odpowiedź to: B</div><div id="odpa52" class="odpowiedzE" onclick="zmien(52,0)"><strong> A. </strong>całkowitej energii kinetycznej cząsteczek wody</div><div id="odpb52" class="odpowiedzE" onclick="zmien(52,1)"><strong> B. </strong>średniej energii kinetycznej cząsteczek wody</div><div id="odpc52" class="odpowiedzE"onclick="zmien(52,2)"><strong> C. </strong>objętości wody</div><div id="odpd52" class="odpowiedzE"onclick="zmien(52,3)"><strong> D. </strong>masy wody</div>
+	 </form>
+	 <form class="pytanie" name="pytanie">
+		<div class="trescE">2. Wybierz przewodnik ciepła </div><div class="rezultatN"  id="rezultat53">Nie udzielono odpowiedzi! Poprawna odpowiedź to: A</div><div id="odpa53" class="odpowiedzE" onclick="zmien(53,0)"><strong> A. </strong>krzem</div><div id="odpb53" class="odpowiedzE" onclick="zmien(53,1)"><strong> B. </strong>puch</div><div id="odpc53" class="odpowiedzE"onclick="zmien(53,2)"><strong> C. </strong>plastik</div><div id="odpd53" class="odpowiedzE"onclick="zmien(53,3)"><strong> D. </strong>drewno</div>
+	 </form>
+	 <form class="pytanie" name="pytanie">
+		<div class="trescE">3. Konsekwencją pieczenia ciasta w piekarniku jest nagrzewanie się górnych warstw powietrza w pomieszczeniu kuchennym. Jakie zjawisko fizyczne jest tego przyczyną?</div><div class="rezultatN"  id="rezultat54">Nie udzielono odpowiedzi! Poprawna odpowiedź to: B</div><div id="odpa54" class="odpowiedzE" onclick="zmien(54,0)"><strong> A. </strong>zjawisko parowania</div><div id="odpb54" class="odpowiedzE" onclick="zmien(54,1)"><strong> B. </strong>zjawisko konwekcji</div><div id="odpc54" class="odpowiedzE"onclick="zmien(54,2)"><strong> C. </strong>zjawisko przewodnictwa cieplnego</div><div id="odpd54" class="odpowiedzE"onclick="zmien(54,3)"><strong> D. </strong>zjawisko promieniowania cieplnego</div>
+	 </form>
+	 <form class="pytanie" name="pytanie">
+		<div class="trescE">4. Parowanie to zjawisko odwrotne do</div><div class="rezultatN"  id="rezultat55">Nie udzielono odpowiedzi! Poprawna odpowiedź to: A</div><div id="odpa55" class="odpowiedzE" onclick="zmien(55,0)"><strong> A. </strong>skraplania</div><div id="odpb55" class="odpowiedzE" onclick="zmien(55,1)"><strong> B. </strong>resublimacji</div><div id="odpc55" class="odpowiedzE"onclick="zmien(55,2)"><strong> C. </strong>krzepnięcia</div><div id="odpd55" class="odpowiedzE"onclick="zmien(55,3)"><strong> D. </strong>topnienia</div>
+	 </form>
+	 <form class="pytanie" name="pytanie">
+		<div class="trescE">5. W którym z poniższych przykładów energia wewnętrzna ciała zmienia się na skutek wykonania pracy?</div><div class="rezultatN"  id="rezultat56">Nie udzielono odpowiedzi! Poprawna odpowiedź to: A</div><div id="odpa56" class="odpowiedzE" onclick="zmien(56,0)"><strong> A. </strong>kawałek drewna rozgrzewa się wskutek pocierania go papierem ściernym</div><div id="odpb56" class="odpowiedzE" onclick="zmien(56,1)"><strong> B. </strong>metalowa blacha wystawiona na działanie promieniowania słonecznego nagrzewa się</div><div id="odpc56" class="odpowiedzE"onclick="zmien(56,2)"><strong> C. </strong>napój ochładza się po wrzuceniu kostek lodu</div><div id="odpd56" class="odpowiedzE"onclick="zmien(56,3)"><strong> D. </strong>powietrze ogrzewa się na skutek zjawiska konwekcji</div>
+	 </form>
+	 <form class="pytanie" name="pytanie">
+		<div class="trescE">6. Metalowy i drewniany przedmiot znajdują się w pomieszczeniu o temperaturze 20 oC. Dlaczego po dotknięciu każdego z tych przedmiotów wydaje nam się, że metalowy przedmiot jest zimniejszy od drewnianego?</div><div class="rezultatN"  id="rezultat57">Nie udzielono odpowiedzi! Poprawna odpowiedź to: B</div><div id="odpa57" class="odpowiedzE" onclick="zmien(57,0)"><strong> A. </strong>temperatura drewnianego przedmiotu jest zbliżona do temperatury naszych dłoni</div><div id="odpb57" class="odpowiedzE" onclick="zmien(57,1)"><strong> B. </strong>metalowy przedmiot jest dobrym przewodnikiem ciepła i szybciej odprowadza ciepło z naszych dłoni</div><div id="odpc57" class="odpowiedzE"onclick="zmien(57,2)"><strong> C. </strong>drewniany przedmiot nagrzewa się szybciej niż przedmiot metalowy</div><div id="odpd57" class="odpowiedzE"onclick="zmien(57,3)"><strong> D. </strong>temperatura metalowego przedmiotu jest niższa niż drewnianego przedmiotu</div>
+	 </form>
+	 <form class="pytanie" name="pytanie">
+		<div class="trescE">7. Energię wewnętrzną dowolnego ciała (substancji) możemy zmienić</div><div class="rezultatN"  id="rezultat58">Nie udzielono odpowiedzi! Poprawna odpowiedź to: C</div><div id="odpa58" class="odpowiedzE" onclick="zmien(58,0)"><strong> A. </strong>tylko na skutek dostarczenia ciepła</div><div id="odpb58" class="odpowiedzE" onclick="zmien(58,1)"><strong> B. </strong>tylko na skutek wykonania pracy</div><div id="odpc58" class="odpowiedzE"onclick="zmien(58,2)"><strong> C. </strong>dostarczając ciepło lub wykonując pracę</div><div id="odpd58" class="odpowiedzE"onclick="zmien(58,3)"><strong> D. </strong>energia wewnętrzna ciała (substancji) nie może ulegać zmianie</div>
+	 </form>
+	 <form class="pytanie" name="pytanie">
+		<div class="trescE">8. Po włożeniu metalowej łyżki o temperaturze pokojowej do naczynia zawierającego bardzo gorącą wodę</div><div class="rezultatN" id="rezultat59">Nie udzielono odpowiedzi! Poprawna odpowiedź to: C</div><div id="odpa59" class="odpowiedzE" onclick="zmien(59,0)"><strong> A. </strong>energia wewnętrzna łyżki i wody nie ulegną zmianie</div><div id="odpb59" class="odpowiedzE" onclick="zmien(59,1)"><strong> B. </strong>energia wewnętrzna łyżki nie ulegnie zmianie, a energia wewnętrzna wody zmieni swoją wartość</div><div id="odpc59" class="odpowiedzE"onclick="zmien(59,2)"><strong> C. </strong>energia wewnętrzna łyżki i wody ulegnie zmianie</div><div id="odpd59" class="odpowiedzE"onclick="zmien(59,3)"><strong> D. </strong>	energia wewnętrzna łyżki ulegnie zmianie, a energia wewnętrzna wody pozostanie bez zmian</div>
+	 </form>
+	 <form class="pytanie" name="pytanie">
+		<div class="trescE">9. Która z poniższych jednostek jest jednostką ciepła właściwego w układzie SI? </div><div class="rezultatN"  id="rezultat60">Nie udzielono odpowiedzi! Poprawna odpowiedź to: A</div><div id="odpa60" class="odpowiedzE" onclick="zmien(60,0)"><strong> A. </strong>J/(kg ∙ K)
+</div><div id="odpb60" class="odpowiedzE" onclick="zmien(60,1)"><strong> B. </strong>J</div><div id="odpc60" class="odpowiedzE"onclick="zmien(60,2)"><strong> C. </strong>J/kg</div><div id="odpd60" class="odpowiedzE"onclick="zmien(60,3)"><strong> D. </strong>J/K</div>
+	 </form>
+	 <form class="pytanie" name="pytanie">
+		<div class="trescE">10. Ilość ciepła potrzebnego do ogrzania wody o masie 1 kg i temperaturze 20 oC do temperatury 80 oC wynosi (ciepło właściwe wody cw = 4200 J/(kg ∙ oC)):</div><div class="rezultatN"  id="rezultat61">Nie udzielono odpowiedzi! Poprawna odpowiedź to: D</div><div id="odpa61" class="odpowiedzE" onclick="zmien(61,0)"><strong> A. </strong>33,6 kJ</div><div id="odpb61" class="odpowiedzE" onclick="zmien(61,1)"><strong> B. </strong>336 kJ</div><div id="odpc61" class="odpowiedzE"onclick="zmien(61,2)"><strong> C. </strong>25,2 kJ</div><div id="odpd61" class="odpowiedzE"onclick="zmien(61,3)"><strong> D. </strong>252 kJ</div>
+	 </form>
+	
+	
+			<div style="text-align:center; margin-top:10px;"><span id="sprawdz" class="btn btn-large btn-blue" onclick="sprawdzegzamin(6)">Sprawdź odpowiedzi!</span></div>
+								
+		
+		
+		
+		<a class="cerrar" href="#portfolio" onclick="location.reload()">X</a>
+    </div>
+ 
+ 
+</body>
+</html>
+
+<script src="canvas.js"></script>

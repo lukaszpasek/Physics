@@ -1,4 +1,3 @@
-
 function tablica_dwuwymiarowa(liczba_wierszy) {
   var tab = new Array(liczba_wierszy);
   for (var i = 0; i < liczba_wierszy; i++) {
@@ -937,5 +936,7 @@ else if(j==3)
 
 	
  
+
+
 
 
